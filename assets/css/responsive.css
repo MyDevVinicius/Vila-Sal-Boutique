@@ -1,0 +1,210 @@
+@media (max-width: 768px) {
+/* Estilos gerais */
+body {
+  overflow-x: hidden;
+}
+nav {
+  height: 5rem;
+}
+a {
+  color: #d3d3d3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.logo {
+  width: 5rem;
+  height: 4rem;
+}
+
+/* Estilos do menu móvel */
+.mobile-menu {
+  position: relative;
+  display: block;
+  left: 3rem;
+}
+.mobile-menu div {
+  width: 2rem;
+  height: 2px;
+  background: #fff;
+  margin: 6px;
+  transition: 0.3s;
+}
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* Estilos da lista de navegação */
+.nav-list {
+  display: flex;
+  position: absolute;
+  top: 5.5rem;
+  right: 0;
+  width: 20rem;
+  height: 70vh;
+  background: #4b3c28c2;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #1b1b1b6b;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+}
+.nav-list > li {
+  margin-left: 0;
+  font-size: 1.4rem;
+  opacity: 0;
+}
+.nav-list.active {
+  transform: translateX(0);
+}
+.nav-list.active > li {
+  opacity: 1; /* Adiciona visibilidade aos links quando o menu está ativo */
+}
+
+/* Animações */
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}}
+
+/* Estilos responsivos para a seção de serviços */
+@media (max-width: 768px) {
+  #servicos {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+    background-color: #e3b95dad;
+  }
+  #servicos > .box-card {
+    flex-direction: column;
+    gap: 8rem;
+    margin-top: 1rem;
+  }
+  #servicos > .title-section h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .box-card > .cards {
+    width: 100%;
+  }
+  .cards > .img-card {
+    width: 90%;
+  }
+  .cards > div > p {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    width: 20rem;
+  }
+  .services {
+    margin-bottom: 10rem;
+    gap: 2rem;
+  }
+  .text-service {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width:768px){
+ 
+  #fotos-posada >div>p{
+    text-align: center;
+    width: 22rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+  }
+  #fotos-posada > .logo-escura>img{
+  width: 7rem;
+  }
+ 
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px; /* Largura máxima do carrossel */
+    margin: auto;
+    gap: 3rem;
+    margin-left: 2.2rem;
+    
+  }
+  .carousel>img:nth-child(2){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(3){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(4){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(5){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(6){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel img {
+    position: relative;
+    width: 300px;
+    flex-shrink: 0;
+    transition: transform 0.5s ease;
+  }
+ 
+  .buttons {
+    position: relative;
+    display: flex;
+    top: -8rem;
+    gap: 20rem;
+    text-align: center;
+   
+  }
+  .buttons> button{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+  
+  }
+  footer{
+    display: flex;
+   flex-wrap: wrap;
+
+    gap: 2rem;
+  
+    padding: 0;
+    background-color: #d28037;
+    width: 100%;
+    height: 92vh;
+    margin-top: -5rem;
+  }
+
+  footer>#Contato{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+}
