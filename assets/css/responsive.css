@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 /* Estilos gerais */
 body {
   overflow-x: hidden;
@@ -136,10 +136,10 @@ a {
     display: flex;
     overflow: hidden;
     width: 100%;
-    max-width: 300px; /* Largura máxima do carrossel */
+    max-width: 400px; /* Largura máxima do carrossel */
     margin: auto;
     gap: 3rem;
-    margin-left: 3rem;
+    margin-left: 12rem;
     
   }
   .carousel>img:nth-child(2){
@@ -164,7 +164,7 @@ a {
   }
   .carousel img {
     position: relative;
-    width: 300px;
+    width: 400px;
     flex-shrink: 0;
     transition: transform 0.5s ease;
   }
@@ -173,7 +173,7 @@ a {
     position: relative;
     display: flex;
     top: -8rem;
-    gap: 20rem;
+    gap: 40rem;
     text-align: center;
    
   }
@@ -209,16 +209,14 @@ a {
   }
 }
 
-
-@media (max-width:426px){
-
+@media (max-width:440px){
   .carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
     max-width: 300px; /* Largura máxima do carrossel */
     margin: auto;
-    gap: 3rem;
+    gap: 3.3rem;
     margin-left: 4rem;
     
   }
@@ -226,7 +224,33 @@ a {
     font-weight: 600;
     font-size: 0.7rem;
   }
+  .buttons {
+    position: relative;
+    display: flex;
+    top: -8rem;
+    gap: 22rem;
+    text-align: center;
+   
+  }
 }
+@media (max-width:425px){
+
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px; /* Largura máxima do carrossel */
+    margin: auto;
+    gap: 3.3rem;
+    margin-left: 3rem;
+    
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+}
+
 @media (max-width:381px){
   .carousel {
     display: flex;
