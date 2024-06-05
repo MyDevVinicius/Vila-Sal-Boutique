@@ -16,7 +16,7 @@ function toggleButton() {
     var message = 'Olá, vim através do seu site, gostaria de algumas informações!';
     
     // Número de telefone para o qual você quer enviar a mensagem
-    var phoneNumber = '81984177483';
+    var phoneNumber = '81 9 84177483';
     
     // Cria a URL com o link do WhatsApp
     var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
