@@ -24,4 +24,6 @@ function toggleButton() {
     // Abre uma nova janela/redireciona para a URL do WhatsApp
     window.open(url, '_blank');
   });
+  toggleButton();
+  setInterval(toggleButton, 15000);
   
