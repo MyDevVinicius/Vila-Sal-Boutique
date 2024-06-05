@@ -250,6 +250,32 @@ a {
     font-size: 0.7rem;
   }
 }
+@media (max-width:393px){
+  .carousel>img:nth-child(2){
+    left: -3.5rem;
+    width: 400px;
+  }
+  .carousel>img:nth-child(3){
+    left: -7.3rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(4){
+    left: -8.3rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(5){
+    left: -8rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(6){
+    left: -8rem;
+    width: 350px;
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+}
 
 @media (max-width:381px){
   .carousel {
