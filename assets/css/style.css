@@ -206,12 +206,13 @@ nav {
       -moz-transform: scale3d(1.5, 1.5, 0.3);
 }
             
-        
-
-/* Wrapper para o Google Translate */
-.gtranslate_wrapper {
-  display: flex;
-  position: relative;
+.gt_float_switcher img {
+  width: 15px; /* Defina a largura desejada */
+  height: auto; /* Mantém a proporção */
+}
+.gt_float_switcher .gt-selected .gt_float_switcher-arrow {
+  width: 9px; /* Defina a largura desejada */
+  height: 10px; /* Defina a altura desejada */
 }
 
 /*Estilos para o carrossel de imagens*/

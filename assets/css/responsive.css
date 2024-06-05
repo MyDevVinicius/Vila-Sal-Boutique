@@ -139,7 +139,7 @@ a {
     max-width: 300px; /* Largura máxima do carrossel */
     margin: auto;
     gap: 3rem;
-    margin-left: 2.2rem;
+    margin-left: 3rem;
     
   }
   .carousel>img:nth-child(2){
@@ -208,6 +208,61 @@ a {
     font-size: 0.7rem;
   }
 }
+
+
+@media (max-width:426px){
+
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px; /* Largura máxima do carrossel */
+    margin: auto;
+    gap: 3rem;
+    margin-left: 4rem;
+    
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width:376px){
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px; /* Largura máxima do carrossel */
+    margin: auto;
+    gap: 3rem;
+    margin-left: 2.2rem;
+    
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:321px){
   .carousel {
