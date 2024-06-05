@@ -1,4 +1,59 @@
 @media (max-width: 769px) {
+
+
+
+  /*Cookies LGPD*/
+.cookies-msg{
+  width:80%;
+  background-color: #ffffff;
+  position: fixed;
+  bottom:15%;
+  left:50%;
+  transform: translate(-50%);
+  border-radius:1rem;
+  display:none;
+  padding: 1rem;
+}
+.cokkies-img>span{
+  position: relative;
+  top: -0.5rem;
+  left: 1rem;
+  color: #a00000;
+  font-weight: 600;
+}
+.cookies-msg.mostrar{
+  display:block;
+}
+
+.cookies-msg .cookies-text{
+  display:flex;
+  align-items:center;
+  text-align:justify;
+  padding:1rem;
+}
+.cookies-txt>p{
+  font-weight: 600;
+}
+
+.cookies-msg .cookies-btn{
+  margin-left:1.4rem;
+}
+
+.cookies-msg .cookies-btn button{
+  background-color:black;
+  color:white;
+  font-weight:600;
+  font-size:1rem;
+  padding:5px 30px;
+  cursor:pointer;
+  transition:.2s;
+  border-radius: 1rem;
+  margin-top: 0.4rem;
+
+}
+.cookies-msg .cookies-btn button:hover{
+    transform: scale(0.9);
+}
 /* Estilos gerais */
 body {
   overflow-x: hidden;
