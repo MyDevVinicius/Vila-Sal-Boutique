@@ -136,7 +136,7 @@ a {
     display: flex;
     overflow: hidden;
     width: 100%;
-    max-width: 400px; /* Largura máxima do carrossel */
+    max-width: 300px; /* Largura máxima do carrossel */
     margin: auto;
     gap: 3rem;
     margin-left: 2.2rem;
@@ -144,7 +144,7 @@ a {
   }
   .carousel>img:nth-child(2){
     left: 1rem;
-    width: 350px;
+    width: 400px;
   }
   .carousel>img:nth-child(3){
     left: 1rem;
@@ -206,5 +206,91 @@ a {
   #credits>p{
     font-weight: 600;
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width:321px){
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px; /* Largura máxima do carrossel */
+    margin: auto;
+    gap: 3rem;
+    margin-left: 0.5rem;
+    
+  }
+  .carousel>img:nth-child(2){
+    left: 1rem;
+    width: 400px;
+  }
+  .carousel>img:nth-child(3){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(4){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(5){
+    left: 1rem;
+    width: 350px;
+  }
+  .carousel>img:nth-child(6){
+    left: 1rem;
+    width: 350px;
+  }
+ 
+  #fotos-posada >div>p{
+    text-align: center;
+    width: 20rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+  }
+
+  .box-footer>p{
+    font-size: 1.2rem;
+    width: 18rem;
+  }
+ 
+  .buttons {
+    position: relative;
+    display: flex;
+    top: -8rem;
+    gap: 17rem;
+    text-align: center;
+   
+  }
+  .buttons> button{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+  
+  }
+  footer{
+    display: flex;
+   flex-wrap: wrap;
+
+    gap: 2rem;
+  
+    padding: 0;
+    background-color: #d28037;
+    width: 100%;
+    height: 92vh;
+    margin-top: -5rem;
+  }
+
+  footer>#Contato{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+
+  }
+  #credits>p{
+    font-weight: 600;
+    font-size: 0.5rem;
   }
 }
