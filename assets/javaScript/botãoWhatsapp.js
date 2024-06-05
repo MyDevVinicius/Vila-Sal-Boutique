@@ -13,10 +13,10 @@ function toggleButton() {
   
   document.getElementById('whatsapp-btn').addEventListener('click', function() {
     var btn = document.getElementById('whatsapp-btn');
-    var message = 'Olá, vim através do seu site, gostaria de algumas informações';
+    var message = 'Olá, vim através do seu site, gostaria de algumas informações!';
     
     // Número de telefone para o qual você quer enviar a mensagem
-    var phoneNumber = 'SEU-NÚMERO-DE-TELEFONE-AQUI';
+    var phoneNumber = '81984177483';
     
     // Cria a URL com o link do WhatsApp
     var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
