@@ -198,6 +198,9 @@ nav {
   -moz-transition: .5s, color .10s;
 
 }
+span{
+  color: #00009d;
+}
 
 
 #whatsapp-btn :hover{
