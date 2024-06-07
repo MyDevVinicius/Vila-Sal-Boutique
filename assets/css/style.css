@@ -428,7 +428,7 @@ footer>#Contato{
   align-items: center;
   background-color: #5f3b00b3;
   gap: 4rem;
-  color: #ebd9a6;
+  color: #d8d8d8;
 }
 
 #principal-Sobre>div{
@@ -442,6 +442,7 @@ footer>#Contato{
 }
 #principal-Sobre>div>p{
   font-size: 1.1rem;
+  text-align: center;
 }
 
 #sobre-acomodaçoes{

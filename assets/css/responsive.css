@@ -366,9 +366,10 @@ a {
 @media (max-width:393px){
   #principal-Sobre>div>img{
     position: relative;
-    left: 35%;
+    left: 30%;
 
   }
+
   .carousel {
     display: flex;
     overflow: hidden;
