@@ -1,6 +1,9 @@
 @media (max-width: 769px) {
+  #principal-Sobre>div>img{
+    position: relative;
+    left: 25%;
 
-
+  }
 
   /*Cookies LGPD*/
 .cookies-msg{
@@ -361,6 +364,11 @@ a {
   }
 }
 @media (max-width:393px){
+  #principal-Sobre>div>img{
+    position: relative;
+    left: 35%;
+
+  }
   .carousel {
     display: flex;
     overflow: hidden;
@@ -411,6 +419,11 @@ a {
 }
 
 @media (max-width:381px){
+  #principal-Sobre>div>img{
+    position: relative;
+    left: 30%;
+
+  }
   .carousel {
     display: flex;
     overflow: hidden;
@@ -446,6 +459,15 @@ a {
 
 
 @media (max-width:321px){
+
+  #principal-Sobre>div>img{
+    position: relative;
+    left: 25%;
+
+  }
+  #Sobre>div>h1{
+    font-size: 2.5rem;
+    }
   .carousel {
     display: flex;
     overflow: hidden;

@@ -63,6 +63,23 @@ nav {
   width: 100%;
   height: 100vh;
 }
+#Sobre{
+  background: url(/assets/img/fundoSobre.webp) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#Sobre>div>h1{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+color: #ebd9a6;
+font-size: 4rem;
+top: 20rem;
+font-weight: 400;
+}
 
 /* Estilos da seção de serviços */
 #servicos {
@@ -397,4 +414,59 @@ footer>#Contato{
 }
 .cookies-msg .cookies-btn button:hover{
     transform: scale(0.9);
+}
+
+
+
+/*pagina sobre.html*/
+#principal-Sobre{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  background-color: #5f3b00b3;
+  gap: 4rem;
+  color: #ebd9a6;
+}
+
+#principal-Sobre>div{
+  width: 30rem;
+}
+#principal-Sobre>div>h2{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+}
+#principal-Sobre>div>p{
+  font-size: 1.1rem;
+}
+
+#sobre-acomodaçoes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 3rem;
+  color: #4e4e4e;
+}
+#sobre-acomodaçoes>div{
+  width: 70%;
+  text-align: center;
+ 
+}
+#sobre-acomodaçoes>div>.sub-button>a>button{
+  width: 10rem;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  background-color: #7a5e46;
+  color: #fff;
 }
