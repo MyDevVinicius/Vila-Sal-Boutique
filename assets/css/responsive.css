@@ -1,10 +1,37 @@
 @media (max-width: 769px) {
   #principal-Sobre>div>img{
     position: relative;
-    left: 25%;
+    left: 25%;}
+    .instru{
+      width: 100%;
+    }
+    #vilasal-quartos{
+      background-color: #eed7c2;
+    }
+   
+   
+    .colum-text{
+      margin-bottom: 1rem;
+    }
 
+  .quartos,.colum-text{
+    display: grid;
+    flex-wrap: wrap;
   }
-
+  #Deluxe>img{
+    width:100%;
+  }
+  #Standard>img{
+  width: 100%;
+  }
+  #vilasal-Inicio{
+   width: 100%;
+  }
+  .quartos{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   /*Cookies LGPD*/
 .cookies-msg{
   width:80%;
