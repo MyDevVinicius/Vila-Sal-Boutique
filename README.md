@@ -2,7 +2,9 @@
 # Site  Vila Sal Boutique 
 Este repositório contém o código-fonte do site institucional de uma Pousada. O site tem como objetivo apresentar informações sobre o hotel, seus serviços, instalações e atrações próximas.
 
-### Url do Projeto Deploy (https://4tkzcg98-5500.brs.devtunnels.ms/)
+### Url do Projeto Deploy (https://vilasalboutique.netlify.app/)
+ Foi usado a vinculação do github e netlify , parq que quando executar o comando
+ (`git push origin main`) ele atualize automaticamente e faça deploy 
 
 ## Estrutura de Pastas
 
