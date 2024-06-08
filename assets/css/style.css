@@ -58,19 +58,19 @@ nav {
 }
 /*Estilos da seção de Inicio */
 #Inicio{
-  background: url(/assets/img/fundo.webp) no-repeat center;
+  background: url(../assets/img/fundo.webp) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 #Sobre{
-  background: url(/assets/img/fundoSobre.webp) no-repeat center;
+  background: url(../assets/img/fundoSobre.webp) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 #vilasal-Inicio{
-  background: url(/assets/img/vila-fundo.jpg) no-repeat center;
+  background: url(../assets/img/vila-fundo.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
