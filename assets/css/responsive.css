@@ -1,3 +1,25 @@
+@media (max-width:1026px){
+  #servicos > .box-card {
+    display: flex;
+    gap: 12rem;
+    margin-top: 2rem;
+  }
+  .box-card > .cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 24rem;
+    color: #fff;
+  }
+  .buttons {
+    position: relative;
+    display: flex;
+    top: -10rem;
+    gap: 58rem;
+    text-align: center;
+   
+  }
+}
 @media (max-width: 769px) {
   #principal-Sobre>div>img{
     position: relative;
