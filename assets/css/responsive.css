@@ -416,6 +416,9 @@ a {
   }
 }
 @media (max-width:393px){
+  .quartos>#Deluxe>img{
+    width: 50%;
+  }
   #principal-Sobre>div>img{
     position: relative;
     left: 30%;
